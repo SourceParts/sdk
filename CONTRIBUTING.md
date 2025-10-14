@@ -170,15 +170,19 @@ Look for issues tagged with `good first issue` - these are great starting points
 
 ### Ideas for Contributions
 
-- **New API Modules**: Support, Admin, Inventory, etc.
-- **Error Handling**: Improve error messages and handling
-- **Tests**: Add unit tests for existing modules
-- **Documentation**: Improve README, add examples
-- **Types**: Enhance TypeScript definitions
+**Customer Experience Improvements:**
+- **Error Handling**: Better error messages and recovery
+- **Documentation**: More examples and use cases
+- **Types**: Enhanced TypeScript definitions
 - **React Hooks**: Add hooks like `useProducts`, `useQuotes`
-- **Examples**: Create example projects
-- **Performance**: Caching, request deduplication
-- **Features**: WebSocket support, request batching
+- **Example Projects**: Real-world integration examples
+- **Performance**: Caching, request optimization
+- **Developer Experience**: Better debugging, logging
+
+**What We're NOT Looking For:**
+- Internal/admin features (this SDK is for customers only)
+- Support ticketing APIs (use our support portal instead)
+- Backend management tools (not part of customer SDK)
 
 ### Proposing New Features
 

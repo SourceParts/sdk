@@ -6,9 +6,15 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-16+-green.svg)](https://nodejs.org/)
 
-Official TypeScript SDK for the Source Parts API. Simplify integration with Source Parts services for electronics sourcing, quoting, BOM management, and more.
+The official TypeScript SDK for Source Parts. **Streamline your electronics sourcing workflow** with easy-to-use APIs for product search, instant quotes, BOM management, and order tracking - all in just a few lines of code.
 
-> **Building in the Open** - This SDK is developed openly. We welcome contributions, feedback, and suggestions from the community!
+> **Building in the Open** 🚀 - We believe in transparency and collaboration. This SDK is developed openly, and we'd love your feedback and contributions to make it even better!
+
+**What You Can Do:**
+- 🔍 Search our catalog of millions of electronic components
+- 💰 Get instant quotes for your parts
+- 📋 Upload and manage your BOMs
+- 📦 Track your orders in real-time
 
 ## Installation
 
@@ -30,28 +36,32 @@ yarn add @sourceparts/sdk
 
 ## Quick Start
 
+Get up and running in seconds! Here's how easy it is to search for parts:
+
 ```typescript
 import { SourcePartsSDK } from '@sourceparts/sdk';
 
-// Initialize the SDK
+// Initialize with your API key
 const sdk = new SourcePartsSDK({
   apiKey: 'your-api-key-here',
-  baseUrl: 'https://source.parts', // optional, defaults to https://source.parts
 });
 
-// Search for products
-const products = await sdk.products.search({
+// Find resistors in stock
+const { products } = await sdk.products.search({
   query: 'resistor',
   category: 'passive-components',
   inStock: true,
 });
 
-console.log(products);
+// That's it! You now have your results
+console.log(`Found ${products.length} resistors in stock!`);
 ```
 
 ## Configuration
 
-### Basic Configuration
+### Simple Setup
+
+Most of the time, this is all you need:
 
 ```typescript
 const sdk = new SourcePartsSDK({
@@ -59,39 +69,42 @@ const sdk = new SourcePartsSDK({
 });
 ```
 
-### Advanced Configuration
+### Need More Control?
+
+Customize timeouts and retry behavior for your specific needs:
 
 ```typescript
 const sdk = new SourcePartsSDK({
   apiKey: 'your-api-key',
-  baseUrl: 'https://source.parts',
-  timeout: 30000, // 30 seconds
+  timeout: 30000,     // Wait up to 30 seconds for responses
   retry: {
-    attempts: 3,
-    delay: 1000, // 1 second
+    attempts: 3,      // Retry failed requests up to 3 times
+    delay: 1000,      // Wait 1 second between retries
   },
 });
 ```
 
-### Authenticated Requests
+### User Authentication
 
-For user-authenticated requests (using Auth0 access tokens):
+Building a customer portal? You can authenticate on behalf of your users:
 
 ```typescript
 const sdk = new SourcePartsSDK({
   apiKey: 'your-api-key',
-  accessToken: 'user-access-token',
+  accessToken: 'user-access-token',  // From your Auth0 login
 });
 
-// Or set it later
+// Or update it anytime
 sdk.setAccessToken('user-access-token');
 ```
 
-## API Reference
+## What Can You Build?
 
-### Products
+The SDK gives you everything you need to integrate Source Parts into your workflow:
 
-#### Search Products
+### 🔍 Product Search
+
+Find exactly what you need from our catalog:
 
 ```typescript
 const result = await sdk.products.search({

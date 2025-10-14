@@ -30,14 +30,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Planned
-- Support API module for ticket management
-- User management API module
-- Company management API module
-- Inventory tracking API module
-- Webhook configuration API module
-- Real-time updates via WebSocket
-- Request caching
+### Planned Customer Features
+- React hooks for easier integration (`useProducts`, `useQuotes`, `useBOM`)
+- Request caching for better performance
 - Request deduplication
 - Optimistic updates support
-- React hooks for common operations
+- Real-time order status updates
+- Enhanced error messages and recovery
+- More product search filters
+- Bulk quote operations
+- BOM validation and suggestions
+- Example projects and templates
