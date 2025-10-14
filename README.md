@@ -1,6 +1,14 @@
 # @sourceparts/sdk
 
+[![npm version](https://img.shields.io/npm/v/@sourceparts/sdk.svg)](https://www.npmjs.com/package/@sourceparts/sdk)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://github.com/sourceparts/sourceparts-sdk/workflows/CI/badge.svg)](https://github.com/sourceparts/sourceparts-sdk/actions)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-16+-green.svg)](https://nodejs.org/)
+
 Official TypeScript SDK for the Source Parts API. Simplify integration with Source Parts services for electronics sourcing, quoting, BOM management, and more.
+
+> **Building in the Open** - This SDK is developed openly. We welcome contributions, feedback, and suggestions from the community!
 
 ## Installation
 
