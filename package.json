@@ -11,10 +11,11 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "pnpm run build",
     "test": "jest",
     "lint": "eslint src --ext .ts"
   },
+  "packageManager": "pnpm@8.0.0",
   "keywords": [
     "sourceparts",
     "api",

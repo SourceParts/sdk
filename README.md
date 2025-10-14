@@ -13,6 +13,12 @@ Official TypeScript SDK for the Source Parts API. Simplify integration with Sour
 ## Installation
 
 ```bash
+pnpm add @sourceparts/sdk
+```
+
+or
+
+```bash
 npm install @sourceparts/sdk
 ```
 
@@ -20,12 +26,6 @@ or
 
 ```bash
 yarn add @sourceparts/sdk
-```
-
-or
-
-```bash
-pnpm add @sourceparts/sdk
 ```
 
 ## Quick Start

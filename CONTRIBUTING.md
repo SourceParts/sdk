@@ -30,13 +30,13 @@ By participating in this project, you agree to maintain a respectful and inclusi
 ### Install Dependencies
 
 ```bash
-npm install
+pnpm install
 ```
 
 ### Build the SDK
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 ## Development Workflow
@@ -116,18 +116,18 @@ test: add unit tests for products module
 When tests are added, run them before committing:
 
 ```bash
-npm test
-npm run test:watch  # Watch mode
-npm run test:coverage  # With coverage
+pnpm test
+pnpm run test:watch  # Watch mode
+pnpm run test:coverage  # With coverage
 ```
 
 ## Submitting Changes
 
 ### Before Submitting
 
-1. **Build successfully**: `npm run build`
-2. **Lint your code**: `npm run lint` (when added)
-3. **Test your changes**: `npm test` (when added)
+1. **Build successfully**: `pnpm run build`
+2. **Lint your code**: `pnpm run lint` (when added)
+3. **Test your changes**: `pnpm test` (when added)
 4. **Update documentation**: Update README.md if needed
 5. **Update CHANGELOG**: Add entry to CHANGELOG.md
 

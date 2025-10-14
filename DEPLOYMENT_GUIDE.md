@@ -126,30 +126,30 @@ See [CHANGELOG.md](./CHANGELOG.md) for full details."
 cd sourceparts-sdk
 
 # Build the SDK
-npm install
-npm run build
+pnpm install
+pnpm run build
 
 # Verify build output
 ls -la dist/
 
 # Dry run (test what will be published)
-npm publish --dry-run
+pnpm publish --dry-run
 
 # Publish to npm (public access)
-npm publish --access public
+pnpm publish --access public
 ```
 
 ### Post-Publish Verification
 
 ```bash
 # Check if package is live
-npm view @sourceparts/sdk
+pnpm view @sourceparts/sdk
 
 # Install and test
 mkdir test-sdk
 cd test-sdk
-npm init -y
-npm install @sourceparts/sdk
+pnpm init
+pnpm add @sourceparts/sdk
 ```
 
 ## Step 6: Update Documentation Links
@@ -262,7 +262,7 @@ Add this to README:
 Enable two-factor authentication on npm:
 
 ```bash
-npm profile enable-2fa auth-and-writes
+pnpm profile enable-2fa auth-and-writes
 ```
 
 ## Support Channels
