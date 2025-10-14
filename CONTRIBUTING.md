@@ -188,8 +188,8 @@ Look for issues tagged with `good first issue` - these are great starting points
 - Video tutorials and walkthroughs
 
 **What We're NOT Looking For:**
-- Internal admin/support tools (not customer-facing)
-- Features unrelated to sourcing, quoting, or ordering
+- Internal admin or backend management features
+- Features unrelated to sourcing, quoting, or ordering workflows
 
 ### Proposing New Features
 

@@ -30,7 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Planned Customer Features
+### Planned Features
 - **React hooks** for easier integration (`useProducts`, `useQuotes`, `useBOM`)
 - **Request caching** for better performance
 - **Request deduplication** to prevent duplicate operations
