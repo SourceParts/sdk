@@ -97,7 +97,7 @@ export class BaseAPIClient {
 
         clearTimeout(timeoutId);
 
-        const data = await response.json();
+        const data = await response.json() as T;
 
         if (!response.ok) {
           throw this.createAPIError(response, data);
