@@ -1,0 +1,43 @@
+{
+  "name": "@sourceparts/sdk",
+  "version": "0.1.0",
+  "description": "Official TypeScript SDK for Source Parts API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "jest",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "sourceparts",
+    "api",
+    "sdk",
+    "electronics",
+    "parts",
+    "sourcing"
+  ],
+  "author": "Source Parts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sourceparts/sdk.git"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {}
+}
