@@ -170,19 +170,26 @@ Look for issues tagged with `good first issue` - these are great starting points
 
 ### Ideas for Contributions
 
-**Customer Experience Improvements:**
-- **Error Handling**: Better error messages and recovery
-- **Documentation**: More examples and use cases
-- **Types**: Enhanced TypeScript definitions
-- **React Hooks**: Add hooks like `useProducts`, `useQuotes`
-- **Example Projects**: Real-world integration examples
-- **Performance**: Caching, request optimization
-- **Developer Experience**: Better debugging, logging
+**High-Value Customer Features:**
+- **Team Management**: APIs for managing team members and permissions
+- **Document Requests**: RFQ and technical documentation workflows
+- **Inventory Tracking**: Track your own inventory alongside Source Parts data
+- **Webhook Support**: Real-time notifications for orders, quotes, shipments
+- **React Hooks**: Add hooks like `useProducts`, `useQuotes`, `useBOM`
+- **Error Handling**: Better error messages and recovery strategies
+- **Performance**: Request caching, deduplication, optimization
+- **Developer Experience**: Better debugging, logging, development tools
+
+**Documentation & Examples:**
+- More real-world use case examples
+- Integration guides (Next.js, React, Node.js)
+- Best practices and patterns
+- Enhanced TypeScript definitions
+- Video tutorials and walkthroughs
 
 **What We're NOT Looking For:**
-- Internal/admin features (this SDK is for customers only)
-- Support ticketing APIs (use our support portal instead)
-- Backend management tools (not part of customer SDK)
+- Internal admin/support tools (not customer-facing)
+- Features unrelated to sourcing, quoting, or ordering
 
 ### Proposing New Features
 

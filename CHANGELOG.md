@@ -31,13 +31,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Planned Customer Features
-- React hooks for easier integration (`useProducts`, `useQuotes`, `useBOM`)
-- Request caching for better performance
-- Request deduplication
-- Optimistic updates support
-- Real-time order status updates
-- Enhanced error messages and recovery
-- More product search filters
-- Bulk quote operations
-- BOM validation and suggestions
-- Example projects and templates
+- **React hooks** for easier integration (`useProducts`, `useQuotes`, `useBOM`)
+- **Request caching** for better performance
+- **Request deduplication** to prevent duplicate operations
+- **Team management** - manage your team members and permissions
+- **Document requests** - RFQ and technical documentation requests
+- **Inventory tracking** - track your own inventory levels
+- **Webhook notifications** - get real-time updates on orders, quotes, etc.
+- **Real-time updates** via WebSocket for order status changes
+- **Enhanced error messages** and better error recovery
+- **More product search filters** and advanced search options
+- **Bulk operations** for quotes and orders
+- **BOM validation** with part suggestions and alternatives
+- **Example projects** and integration templates
