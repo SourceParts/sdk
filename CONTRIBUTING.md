@@ -19,12 +19,12 @@ By participating in this project, you agree to maintain a respectful and inclusi
 1. Fork the repository on GitHub
 2. Clone your fork:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/sourceparts-sdk.git
-   cd sourceparts-sdk
+   git clone https://github.com/YOUR-USERNAME/sdk.git
+   cd sdk
    ```
 3. Add upstream remote:
    ```bash
-   git remote add upstream https://github.com/sourceparts/sourceparts-sdk.git
+   git remote add upstream https://github.com/sourceparts/sdk.git
    ```
 
 ### Install Dependencies

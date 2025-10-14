@@ -28,12 +28,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sourceparts/sourceparts-sdk.git"
+    "url": "https://github.com/sourceparts/sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/sourceparts/sourceparts-sdk/issues"
+    "url": "https://github.com/sourceparts/sdk/issues"
   },
-  "homepage": "https://github.com/sourceparts/sourceparts-sdk#readme",
+  "homepage": "https://github.com/sourceparts/sdk#readme",
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
