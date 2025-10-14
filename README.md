@@ -84,19 +84,21 @@ const sdk = new SourcePartsSDK({
 });
 ```
 
-### User Authentication
+### Team & Company Portals
 
-Building a customer portal? You can authenticate on behalf of your users:
+Building an internal portal for your engineering team? Authenticate users individually:
 
 ```typescript
 const sdk = new SourcePartsSDK({
-  apiKey: 'your-api-key',
-  accessToken: 'user-access-token',  // From your Auth0 login
+  apiKey: 'your-company-api-key',
+  accessToken: 'team-member-token',  // Each team member's Auth0 token
 });
 
-// Or update it anytime
-sdk.setAccessToken('user-access-token');
+// Update when switching users or refreshing tokens
+sdk.setAccessToken('team-member-token');
 ```
+
+This allows you to track which team member placed orders, created quotes, etc.
 
 ## What Can You Build?
 
