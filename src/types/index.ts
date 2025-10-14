@@ -15,7 +15,7 @@ export interface SDKConfig {
   apiKey?: string;
 
   /**
-   * Optional Auth0 access token for user-authenticated requests
+   * Optional access token for user-authenticated requests
    */
   accessToken?: string;
 

@@ -91,11 +91,11 @@ Building an internal portal for your engineering team? Authenticate users indivi
 ```typescript
 const sdk = new SourcePartsSDK({
   apiKey: 'your-company-api-key',
-  accessToken: 'team-member-token',  // Each team member's Auth0 token
+  accessToken: 'team-member-access-token',  // Each team member's access token
 });
 
 // Update when switching users or refreshing tokens
-sdk.setAccessToken('team-member-token');
+sdk.setAccessToken('team-member-access-token');
 ```
 
 This allows you to track which team member placed orders, created quotes, etc.

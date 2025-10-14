@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Base API client with retry logic and error handling
 - TypeScript support with full type definitions
 - Comprehensive documentation and examples
-- Authentication support (API key and Auth0 access tokens)
+- Authentication support (API key and user access tokens)
 - Configurable timeout and retry settings
 
 ### Features
