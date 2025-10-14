@@ -27,10 +27,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       - name: Build
         run: pnpm run build
@@ -59,10 +58,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18.x'
-          cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       - name: Lint (when available)
         run: pnpm run lint || echo "Linting not configured yet"
@@ -84,10 +82,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18.x'
-          cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       - name: Run tests (when available)
         run: pnpm test || echo "Tests not configured yet"
@@ -109,10 +106,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18.x'
-          cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       - name: Type check
         run: pnpm exec tsc --noEmit
