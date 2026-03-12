@@ -53,6 +53,34 @@ export { ProductsAPI } from './modules/products';
 export { QuotesAPI } from './modules/quotes';
 export { BOMAPI } from './modules/bom';
 export { OrdersAPI } from './modules/orders';
+export { InventoryAPI } from './modules/inventory';
+export { LotsAPI } from './modules/lots';
+export { StorageAPI } from './modules/storage';
+
+// Export inventory module types
+export type {
+  StockAddParams,
+  StockRemoveParams,
+  StockMoveParams,
+  InventoryLocationResult,
+  InventoryMovementResult,
+  InventoryListParams,
+} from './modules/inventory';
+
+// Export lots module types
+export type {
+  LotResult,
+  CreateLotParams,
+  UpdateLotParams,
+  LotListParams,
+} from './modules/lots';
+
+// Export storage module types
+export type {
+  StorageLocationResult,
+  StorageLocationListParams,
+  PartStorageResult,
+} from './modules/storage';
 
 // Default export
 import { SourcePartsSDK } from './client/sdk-client';

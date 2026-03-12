@@ -179,3 +179,37 @@ export interface User {
   roles?: string[];
   createdAt: string;
 }
+
+/**
+ * Inventory Types
+ * Detailed interfaces are in modules/inventory.ts
+ */
+export type {
+  StockAddParams,
+  StockRemoveParams,
+  StockMoveParams,
+  InventoryLocationResult,
+  InventoryMovementResult,
+  InventoryListParams,
+} from '../modules/inventory';
+
+/**
+ * Lot Types
+ * Detailed interfaces are in modules/lots.ts
+ */
+export type {
+  LotResult,
+  CreateLotParams,
+  UpdateLotParams,
+  LotListParams,
+} from '../modules/lots';
+
+/**
+ * Storage Location Types
+ * Detailed interfaces are in modules/storage.ts
+ */
+export type {
+  StorageLocationResult,
+  StorageLocationListParams,
+  PartStorageResult,
+} from '../modules/storage';
